@@ -1,0 +1,1 @@
+jQuery(document).ready((function(o){h=o(window).height(),h*=.8,o("body").scroll((function(){o(".brand-nav").toggleClass("scrolled",o(this).scrollTop()>h)}))}));

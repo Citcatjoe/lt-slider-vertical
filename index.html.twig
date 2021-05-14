@@ -1,0 +1,194 @@
+{% use '_blocks.html.twig' %}
+
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+	{{ block('head_brand') }}
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/splide-min.css" />
+	<link rel="stylesheet" type="text/css" href="css/splide-core-min.css" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+	{# <link rel="stylesheet" type="text/css" href="css/loader.css" /> #}
+	{# <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" /> #}
+	{# <link rel="stylesheet" type="text/css" href="css/owl.theme.css" /> #}
+	{# <link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,400italic' rel='stylesheet' type='text/css'> #}
+	{# <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'> #}
+	<!--<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">-->
+	{# <link href="https://fonts.googleapis.com/css?family=Poppins:400,700i,900i" rel="stylesheet"> #}
+	{# <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"> #}
+	{# <script src="https://www.youtube.com/iframe_api"></script> #}
+	<script>var players = [];</script>
+
+</head>
+<body style="padding-top: {{ navBarOffset }};">
+	{{ block('bar_brand') }}
+
+	
+
+
+	
+	<aside>
+		
+		<nav>
+			<ul>
+				<li>
+					<a href="#home"><h1>Covid:<br>Sortie de crise</h1></a>
+				</li>
+				<li>
+					<a href="#article-train" class="test">A Genève, Bambi s'invite à table</a>
+				</li>
+				<li>
+					<a href="#article-plage">Immunisés sans masques et enfants</a>
+				</li>
+				<li>
+					<a href="#article-fox">Dans le centre d’Israël, un mauvais goût</a>
+				</li>
+				<li>
+					<a href="#article-portrait1">Un seul mandat de sept ans</a>
+				</li>
+				<li>
+					<a href="#article-portrait2">Le Hamas s’est placé au centre</a>
+				</li>
+			</ul>
+		</nav>
+	</aside>
+
+	<main>
+		<div class="scrollance">
+
+			<article id="home">
+				<h3>
+					On March 11, 2020, the World Health Organization declared the coronavirus outbreak a pandemic.
+					<span>These stories offer a look at one year of loss and disruption.</span>
+				</h3>
+				<a href="#article-train">
+					<span class="scrolldown">
+						<span class="scrolldown-txt">Faire défiler</span>
+						<img src="img/scrolldown.svg">
+					</span>
+				</a>
+			</article>
+
+			<a href="">
+				<article id="article-train" class="articleun cbot">
+					<figure style="background-image: url('img/train.jpg');">
+						<div class="overlay"></div>
+					</figure>
+					<h2>
+						The pandemic closed borders, halted air travel and emptied destinations of tourists. Here's how six places have adapted.
+					</h2>
+				</article>
+			</a>
+
+			<a href="">
+				<article id="article-plage" class="articledeux left">
+					<figure style="background-image: url('img/plage.jpg');">
+						<div class="overlay"></div>
+					</figure>
+					<h2>
+						The pandemic closed borders, halted air travel and emptied destinations of tourists. Here's how six places have adapted.
+					</h2>
+				</article> 
+			</a>
+
+			<a href="">
+				<article id="article-fox" class="articleun right">
+					<figure style="background-image: url('img/fox.jpg');">
+						<div class="overlay"></div>
+					</figure>
+					<h2>
+						The pandemic closed borders, halted air travel and emptied destinations of tourists. Here's how six places have adapted.
+					</h2>
+				</article>
+			</a>
+
+			<a href="">
+				<article id="article-portrait1" class="articleun halfright">
+					<figure style="background-image: url('img/portrait.jpg');">
+					</figure>
+					<div class="txt dark">
+						<h2>
+							The pandemic closed borders, halted air travel and emptied destinations of tourists. Here's how six places have adapted.
+						</h2>
+					</div>
+				</article>
+			</a>
+
+			<a href="">
+				<article id="article-portrait2" class="articleun halfleft">
+					<div class="txt light">
+						<h2>
+							The pandemic closed borders, halted air travel and emptied destinations of tourists. Here's how six places have adapted.
+						</h2>
+					</div>
+					<figure style="background-image: url('img/portrait.jpg');">
+					</figure>
+				</article>
+			</a>
+
+		</div>
+	</main>
+
+
+
+
+
+<header>
+{# <div class="header__content">
+	<div class="header__content__container">
+		<div class="header__content__container__box">
+			<h2>Les superbactéries, nouvelles bêtes noires des hôpitaux</h2>
+			<h2 class="author">Une enquête de <span>Marie Maurisse</span> et <span>Karine Pfenniger</span></h2>
+			<h2 class="social" >
+				<a target="blank" href="https://www.facebook.com/sharer.php?u={{ app.url }}&display=popup&ref=plugin&src=share_button"><i class="fa fa-facebook"></i></a>
+				<a target="blank" href="https://twitter.com/intent/tweet?text={{ description ~ ' ' ~ app.url ~ ' '|url_encode }}&via=letemps"><i class="fa fa-twitter fa-middle"></i></a>
+				<a target="blank" href="https://www.linkedin.com/shareArticle?url={{ app.url }}&mini=true&title={{ title|url_encode }}&summary={{ description|url_encode }}&source={{ 'Le Temps'|url_encode }}"><i class="fa fa-linkedin"></i></a>
+			</h2>
+		</div>
+	</div>
+</div> #}
+</header>
+
+
+
+
+
+{{ block('contrib_bloc') }}
+
+
+<footer>
+	
+</footer>
+
+{{ block('footer_brand') }}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+{# <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script> #}
+{# <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script> #}
+{# <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script> #}
+{# <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script> #}
+{# <script src="js/jquery.lazyload.js?v=1.9.7"></script> #}
+{# <script src="js/intro-control.js"></script> #}
+{# <script src="js/viewport.js"></script> #}
+<!--<script src="js/timeline-control.js"></script>-->
+<script src="js/main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+
+<script src="js/anchors.js"></script>
+{# <script src="js/main2.js"></script> #}
+{# <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> #}
+
+<!--<script src="js/video-control.js"></script>-->
+
+<!--<script src="js/hero-control.js"></script>-->
+
+{# <script src="js/zoom.js"></script> #}
+{# <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script> #}
+{# <script src="js/jquery.counterup.min.js"></script> #}
+{# <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.js"></script> #}
+</body>
+</html>

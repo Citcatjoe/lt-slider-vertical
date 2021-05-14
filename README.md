@@ -1,1 +1,1 @@
-# lt-slider-vertical
+# Long read bactéries résistantes
