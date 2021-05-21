@@ -109,13 +109,19 @@ $zModal: 300;
         font-weight: bold;
     }
 }
-html, body {overflow: auto;}
-html { background: $white; color: #222; font-size: 17px; line-height: 1.4; scroll-behavior: smooth; }
+html, body {overflow: auto; height:100vh;}
+html { background: white; color: #222; font-size: 17px; line-height: 1.4; scroll-behavior: smooth; }
 body 
 { 
-     height: 100vh;
+     /*height: 100vh;*/
+     width:100%;
      position: relative;
      scroll-snap-type: y mandatory;
+     
+
+     @include breakpoint(sm) {
+        scroll-padding: 40px;
+    }
 }
 nav
 {
@@ -166,7 +172,7 @@ aside
 main
 {
     width: calc(100% - 350px);
-    /*height: 100%;*/
+    height: 100%;
     float: right;
     background: #101010;
     
@@ -176,19 +182,36 @@ main
         width: 100%;
     }
 
+    .scrollance
+    {
+        height: 100%;
+
+        a 
+        {
+            height: 100%;
+            scroll-snap-align: start;
+            display: block;
+        }
+    }
+
 
 }
 main article#home
 {
     background: white;
+    height: 100%;
 }
 main article
 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding-top: 57;
-    scroll-snap-align: start;
+    
     position: relative;
+
+    /*@include breakpoint(sm) {
+        height: calc(100% - 40px)
+    }*/
 
     &.cbot
     {
@@ -241,6 +264,7 @@ figure
 
     @include breakpoint(sm) {
         height: 40%;
+        /*margin-top: 40px;*/
     }
 }
 
@@ -296,8 +320,8 @@ figure
 h1
 {
     color: white;
-    font-size: 30px;
-    line-height: 33px;
+    font-size: 39px;
+    line-height: 43px;
     font-family: 'Libre Baskerville';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -405,7 +429,7 @@ h3
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 50px;
+    font-size: 70px;
     line-height: 60px;
     //max-width: 60%;
     padding: 30px 50px;
@@ -413,7 +437,7 @@ h3
     text-shadow: 0;
 
     @include breakpoint(sm) {
-        font-size: 26px;
+        font-size: 36px;
         line-height: 34px;
         padding: 30px 30px;
     }
@@ -422,14 +446,15 @@ h3
     {   
         display: block;
         font-family: Roboto;
-        margin-top: 20px;
-        font-size: 70%;
-        line-height: 1em;
+        margin-top: 50px;
+        font-size: 35px;
+        line-height: 1.3em;
         font-weight: 300;
 
         @include breakpoint(sm) {
-             font-size: 90%;
+             font-size: 70%;
             line-height: 1.2em;
+            margin-top: 30px;
         }
     }
 

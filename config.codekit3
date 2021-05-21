@@ -2150,6 +2150,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/img/aubergine.jpg": {
+		"ft": 16384,
+		"iS": 689757,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/aubergine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/boucher.jpeg": {
+		"ft": 16384,
+		"iS": 267705,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/boucher.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/cd-arrow-tl.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2192,6 +2214,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/escargots.jpeg": {
+		"ft": 16384,
+		"iS": 223163,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/escargots.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/img/fox.jpg": {
 		"ft": 16384,
 		"iS": 965539,
@@ -2201,6 +2234,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/hymalaya-mobile.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/hymalaya-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/lazy-placeholder.jpg": {
@@ -2338,6 +2382,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/img/sortiedecrise.jpg": {
+		"ft": 16384,
+		"iS": 521300,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/sortiedecrise.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/SPONSOR.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2347,6 +2402,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/img/survivant-center.jpg": {
+		"ft": 16384,
+		"iS": 232345,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/survivant-center.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/survivant.jpg": {
+		"ft": 16384,
+		"iS": 307382,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/survivant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/thumb-boldor.jpg": {
 		"ft": 16384,
