@@ -2203,6 +2203,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/emilbola.jpg": {
+		"ft": 16384,
+		"iS": 231491,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/emilbola.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/empty.png": {
 		"ft": 32768,
 		"iS": 81,
@@ -2225,6 +2236,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/escargots.jpg": {
+		"ft": 16384,
+		"iS": 291635,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/escargots.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/fox.jpg": {
 		"ft": 16384,
 		"iS": 965539,
@@ -2245,6 +2267,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/karusisi.jpg": {
+		"ft": 16384,
+		"iS": 350362,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/karusisi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/lazy-placeholder.jpg": {
@@ -2381,6 +2414,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/img/shelly.jpg": {
+		"ft": 16384,
+		"iS": 407405,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/shelly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/img/sortiedecrise.jpg": {
 		"ft": 16384,
@@ -2585,6 +2629,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/train.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/wesaala.jpg": {
+		"ft": 16384,
+		"iS": 381696,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/wesaala.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
